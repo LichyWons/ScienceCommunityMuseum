@@ -1,0 +1,629 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-logo {
+    width: fit-content;
+    height: 100%;
+}
+
+.header-logo img {
+    height: 60px;
+    padding-left: 50px;
+}
+.header-nav {
+    width: fit-content;
+    height: 100%;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.header-nav ul li {
+    display: inline;
+    float: left;
+
+}
+
+.header-nav ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 100%;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    max-width: 1500px;
+    margin: 0;
+    padding: 0; 
+    background-color:white; 
+}
+
+.hero-index {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/index-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 100px;  
+    }
+    .hero-index h1 {
+        font-size: 70px;
+        line-height: 80px;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+     
+    .index-text h3 {
+        text-align: center;
+    }
+
+    .index-news h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    .index-news img {
+        width: 100%;
+    }
+    
+
+.hero-explore {
+width: 100%;
+height: 70vh;
+background-image: url(../images/ExhibitionHeroImg.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+.hero-explore h1 {
+    font-size: 50px;
+    line-height: 62px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.kids {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    padding-bottom: 20px;
+    
+}
+
+.kids-img{
+   margin: 0;
+
+}
+
+.kids img {
+    width: 40vw;
+}
+.kid-txt {
+    margin: 10px;
+}
+
+main {
+    margin: 50px;
+    column-gap: 10vw;
+}
+
+.teachers-txt {
+    margin: 10px;
+}
+
+.teachers {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px black solid;
+    padding-bottom: 20px;
+}
+
+.teachers-img{
+    margin: 0px;
+
+}
+
+.teachers img {
+    width: 40vw;
+}
+
+main {
+    margin: 50px;
+    column-gap: 10vw;
+}
+
+.teachers-txt {
+    margin: 10px;
+}
+
+
+.teachers-txt {
+    margin: 10px;
+}
+
+.researchers {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 1px black solid;
+    padding-bottom: 20px;
+    
+}
+
+.researchers-img{
+    margin: 0px;
+
+}
+
+.researchers img {
+    width: 40vw;
+}
+
+
+.researchers-txt {
+    margin: 10px;
+}
+
+.hero-exhibition-spaces {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/EXHIBITION-SPACES.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    }
+    .hero-exhibition-spaces h1 {
+        font-size: 50px;
+        line-height: 62px;
+        color: white;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .cosmology{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid black;
+    }
+
+    .cosmology img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;     
+    }
+    .cosmology p {
+        font-size: large;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align:justify;
+    }
+
+    .evolution {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid black;
+    }
+    .evolution img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .evolution p {
+        font-size: large;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align:justify;
+    }
+
+    .biology-medicine {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid black;
+    }
+    .biology-medicine img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .biology-medicine p {
+        font-size: large;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align:justify;
+    }
+
+    .robotics {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid black;
+    }
+    .robotics img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .robotics p {
+        font-size: large;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align:justify;
+    }
+
+    .ecology {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid black;
+    }
+    .ecology img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ecology p {
+        font-size: large;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align:justify;
+    }
+
+    .hero-special-events {
+        width: 100%;
+        height: 70vh;
+        background-image: url(../images/events-hero.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        }
+        .hero-special-events h1 {
+            font-size: 50px;
+            line-height: 62px;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .event {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            border-bottom: 1px black solid;
+            padding-bottom: 20px;
+        }
+        
+        .event-img{
+            margin: 0px;
+        
+        }
+        
+        .event img {
+            width: 40vw;
+        }
+        
+        main {
+            margin: 50px;
+            column-gap: 10vw;
+        }
+        
+        .event-txt {
+            margin: 10px;
+        }
+        
+        
+        .event-txt {
+            margin: 10px;
+        }
+
+        .visit-hero h1 {
+            font-size: 50px;
+            line-height: 62px;
+            color: black;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+        }
+
+        .location {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .location h2 {
+            text-decoration: underline;
+        }
+        .admission {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .addmission h2 {
+            text-decoration: underline;
+        }
+        .hours {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .hours h2 {
+            text-decoration: underline;
+        }
+        .accessibility {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .accessibility h2 {
+            text-decoration: underline;
+        }
+        .food {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .food h2 {
+            text-decoration: underline;
+        }
+        .shop {
+            border: 1px solid black;
+            padding-left: 10px;
+            margin-top: 20px;
+        }
+
+        .shop h2 {
+            text-decoration: underline;
+        }
+
+        .get-involved-hero h1 {
+            font-size: 50px;
+            line-height: 62px;
+            color: black;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .support {
+            margin-top: 50px;
+            margin-bottom: 100px;
+            border: 1px solid black;
+            padding: 50px;
+        }
+    
+    .support img {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .volunteer {
+        margin-top: 50px;
+        margin-bottom: 100px;
+        border: 1px solid black;
+        padding: 50px;
+    }
+
+.volunteer img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.internships {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.internships img {
+width: 80%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 0px;
+    background-color: black;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+footer p {
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+#menu-checkbox {
+    display: none;
+}
+.header-nav p{
+   color: black;
+}
+
+@media  (max-width: 930px) {
+    
+.header-nav p {
+   
+    color: white;
+    size: 10px;
+}
+.fas fa-bars{
+    color: white;
+}
+
+.header-nav, 
+#menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked 〜 nav {
+    display: block;
+}
+.header-nav ul li {
+display: block;
+}
+
+.header-nav {
+    position: absolute;
+}
+}
+
+/*
+.navLogo img {
+    height: 100px;
+}
+nav {
+    width: auto;
+    height:100px;
+    line-height: 75px;
+    padding: 0px 100px;
+    background-color: black;
+
+}
+nav ul{
+    float: right;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+nav li a {
+    font-size: 18px;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.heroMain {
+    background-color: grey;
+    background-image: url(../images/exhibition-1863344_1920.jpg);
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.exploreButton {
+    background-color: red;
+    padding: 15px 50px;
+    
+}
+.heroMain a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+h1{
+    padding: 30px 75px;
+    text-align: center;
+    font-size:xx-large;
+}
+p{
+    padding: 30px 75px;
+    text-align: center;
+    font-size: medium;
+}
+.specialEvents p{
+    margin-bottom: 0;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.newsMain img {
+    align-items: center;
+    width: 100%;
+    
+}
+.footer {
+    background-color: black;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.footer p {
+    color: white;
+}
+
+.heroExhibition{
+    margin: 0;
+   width: 100%;
+   height: 70vh;
+   background-image: url(../images/ExhibitionHeroImg.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
+   
+
+}
+
+.heroExhibition h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+   
+}
