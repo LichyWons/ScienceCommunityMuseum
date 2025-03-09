@@ -545,6 +545,19 @@ display: block;
 .header-nav {
     position: absolute;
 }
+
+.event {
+    flex-direction: column;
+}
+.kids {
+    flex-direction:column;
+}
+.teachers {
+    flex-direction:column;
+}
+.researchers {
+    flex-direction:column;
+}
 }
 
 /*
