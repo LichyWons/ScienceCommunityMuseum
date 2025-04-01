@@ -1,4 +1,6 @@
 # Community Science Museum - HTML & CSS Project
+![Screenshot od index page](https://krzyby.netlify.app/images/google-pixelbook-mockup%20(1).png)
+
 
 This repository contains a project that showcases skills in HTML and CSS. The project features a website for a fictional Community Science Museum, demonstrating a responsive design, semantic code, and integration with external resources like Google Fonts and Font Awesome.
 
