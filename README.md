@@ -31,8 +31,8 @@ The project presents a website for the fictional Community Science Museum. The s
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/community-science-museum.git
-   cd community-science-museum
+   git clone https://github.com/LichyWons/ScienceCommunityMuseum.git
+   cd ScienceCommunityMuseum
    
 2. **Open the Website:**
 
